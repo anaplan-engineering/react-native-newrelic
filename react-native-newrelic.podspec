@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => "https://github.com/lochness42/react-native-webp-support.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/lochness42/react-native-newrelic.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m}"
 
   s.dependency 'React'
